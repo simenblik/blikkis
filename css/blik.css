@@ -1,0 +1,55 @@
+body {
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+#mainbox {
+    margin-left:35%;
+    margin-top:10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:60%
+}
+li {
+    display: inline;
+    font-size: 140%;
+    font-family: "Lucida Console"
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#meny {
+    margin-top: 2%;
+    margin-left:37%;
+}
+
+.mainmenu {
+    margin-left:3%;
+}
+#meny li:hover  {
+    background-color: green;
+}
+a:visited {
+    color:greenyellow;
+}
+
+#socialmedia img {
+    width:14%; 
+    height: 10%;
+}
+
+#socialmedia {
+    margin-top: 18%;
+    margin-left: 36%;
+}
+#socialmedia li:hover {
+    background-color: green;
+}
