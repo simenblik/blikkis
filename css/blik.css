@@ -1,5 +1,6 @@
 body {
     background-color: rgba(0, 0, 0, 0.8); 
+    height:100%;
 }
 
 #mainbox {
@@ -16,7 +17,7 @@ ul {
 li {
     display: inline;
     font-size: 140%;
-    font-family: "Lucida Console"
+    font-family: "Lucida Console";
     
 }
 
@@ -28,7 +29,7 @@ a {
 
 #meny {
     margin-top: 2%;
-    margin-left:37%;
+    margin-left:33%;
 }
 
 .mainmenu {
@@ -37,9 +38,7 @@ a {
 #meny li:hover  {
     background-color: green;
 }
-a:visited {
-    color:greenyellow;
-}
+
 
 #socialmedia img {
     width:14%; 
@@ -47,9 +46,23 @@ a:visited {
 }
 
 #socialmedia {
-    margin-top: 18%;
+    margin-top: 10%;
     margin-left: 36%;
 }
 #socialmedia li:hover {
     background-color: green;
+}
+#maininfo {
+    font-family: "Lucida Console";
+    margin-left: 30%;
+    margin-top: 5%;
+    height: 15%;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
 }
