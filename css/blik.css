@@ -66,3 +66,6 @@ h1 {
 p {
     color: whitesmoke;
 }
+#maininfo a:hover {
+    background-color: green;
+}
