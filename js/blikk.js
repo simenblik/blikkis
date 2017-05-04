@@ -12,8 +12,8 @@ var _hour = _minute * 60;
 var _day = _hour * 24;
 var timer;
 
-function countDown() {
-    var now = new Date();
+    function showRemaining() {
+        var now = new Date();
         var distance = end - now;
         if (distance < 0) {
 
@@ -31,5 +31,6 @@ function countDown() {
         document.getElementById('countdown').innerHTML += hours + 'hrs ';
         document.getElementById('countdown').innerHTML += minutes + 'mins ';
         document.getElementById('countdown').innerHTML += seconds + 'secs';
-    document.getElementById("roskilde")
-}
+    }
+
+    timer = setInterval(showRemaining, 1000);
