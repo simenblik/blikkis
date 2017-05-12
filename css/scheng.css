@@ -1,0 +1,56 @@
+p, h1, li, a, h2 {
+    font-family: "Courier New";
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+#menu {
+    font-size:200%;
+    float:left;
+    margin-top:10%;
+}
+
+#main img{
+    width:40%;
+    margin-left:6%;
+    
+}
+#main h1 {
+    margin-left:10%;
+    font-size:500%;
+}
+#wineimages {
+    width:40%;
+    
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left:10%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-family: "Courier New";
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#chillstraff img{
+    width:6%;
+}
+
+.idrett {
+    width:40%;
+    margin-left:20%;
+}
+
+.idrett h2{
+    margin-left:10%;
+}

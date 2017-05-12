@@ -1,0 +1,38 @@
+p, h1, li {
+    font-family: "Courier New"
+}
+
+#countdown {
+    margin-top:1%;
+    margin-left:33%;
+}
+
+li {
+    font-size:180%; 
+    list-style: none;
+    margin-bottom: 2%;
+}
+
+#menu {
+    margin-left:10%;
+    margin-top:10%;
+    float:left;
+}
+
+#header {
+    width:33.5%;
+    margin-left:35%;
+    font-size:400%;
+    background-color:indianred;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color:indianred;
+}
+
+#main {
+    margin-left:40%;
+}
