@@ -54,3 +54,8 @@ tr:nth-child(even) {
 .idrett h2{
     margin-left:10%;
 }
+
+#HCB_comment_box {
+    width:50%;
+    margin-left:20%;
+}
