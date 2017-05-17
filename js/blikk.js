@@ -1,3 +1,9 @@
+function randomQuote() {
+    var quotes = new Array('Solen skinner alltid på de_dust2', 'Vær deg selv og gi 110%', 'Im a bad boy coming straight from the underground', 'bøBØbø', 'ja ja ja ja ja ja ja');
+    var quote = quotes[Math.floor(Math.random()*quotes.length)];
+    document.getElementById('quotechill').innerHTML = 'Dagens visdomsord: ' + quote;
+}
+
 function mouseOver() {
     document.getElementById("mains").style.color = "green";
 }
